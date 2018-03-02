@@ -4,9 +4,12 @@ Webhook for creating defects in Rally (CA-Agile Central).  Utilizes https://gith
 Retrieve webhookRally.war from /bin.  Deploy to tomcat/webapps directory.  
 Update WEB-INF/classes/rally.properties
 
-RallyProjectObjectID=<Rally Project ID easiky obtained from Rally URL>
-RallyAPIkey=<Rally API Key>
+RallyProjectObjectID=\<Rally Project ID easiky obtained from Rally URL>
+
+RallyAPIkey=\<Rally API Key>
+
 WSlogging=true //Enable to see Web Service calls in catalina.out
+
 
 
 Tested with Tomcat 8.x and Jetty 8.  
